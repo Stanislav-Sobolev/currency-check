@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { CurrencyField } from './CurrencyField';
 import axios from 'axios';
 
