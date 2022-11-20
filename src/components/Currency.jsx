@@ -30,7 +30,6 @@ export const Currency = () => {
         throw new Error(error.message);
       }
     }
-
     fetchApi();
 
     // async function name(params) {
