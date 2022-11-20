@@ -20,7 +20,7 @@ export const App = () => {
     defaultCurrency2,
     rate,
     pending,
-    error,
+    // error,
   } = useAllSelectors();
 
   const [amount1, setAmount1] = useState(1);

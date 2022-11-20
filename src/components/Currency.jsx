@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { CurrencyField } from './CurrencyField';
 import axios from 'axios';
 
@@ -17,7 +17,7 @@ const instance = axios.create({
 });
 
 export const Currency = () => {
-  const [rates, setRates] = useState(null);
+  // const [rates, setRates] = useState(null);
 
   useEffect(() => {
     async function fetchApi() {
@@ -30,6 +30,7 @@ export const Currency = () => {
         throw new Error(error.message);
       }
     }
+
     fetchApi();
 
     // async function name(params) {
