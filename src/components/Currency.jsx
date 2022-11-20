@@ -17,7 +17,7 @@ const instance = axios.create({
 });
 
 export const Currency = () => {
-  const [rates, setRates] = useState(null);
+  // const [rates, setRates] = useState(null);
 
   useEffect(() => {
     async function fetchApi() {
